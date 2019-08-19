@@ -1,6 +1,6 @@
 ## Contact
 Contact me by [Email](mailto:sweezyconsulting.gmail.com) or [LinkedIn](https://www.linkedin.com/in/ben-sweezy-91514720/).
-View complete [resume]('https://bsweezy.github.io/Ben Sweezy - Resume 20190819.pdf').
+View complete [resume]('Ben Sweezy - Resume 20190819.pdf').
 
 ## Data Strategy & Management Analytics
 * Understand your customers' data needs and build applications to improve their use of your data.
