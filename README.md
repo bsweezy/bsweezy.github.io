@@ -1,5 +1,5 @@
 ## Contact
-Contact me by [Email](mailto:sweezyconsulting.gmail.com) or [LinkedIn](https://www.linkedin.com/in/ben-sweezy-91514720/).
+Contact me by [Email](mailto:sweezyconsulting@gmail.com) or [LinkedIn](https://www.linkedin.com/in/ben-sweezy-91514720/).
 View complete [resume](Benjamin Sweezy - Resume.pdf).
 
 ## Data Strategy & Management Analytics
