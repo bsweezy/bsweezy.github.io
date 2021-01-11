@@ -24,7 +24,7 @@ Launching with inital load of recommendations and categories. Hopefully will add
 * Mizesko "Sketches from Pinehurst" (2005, not on Spotify)
 * tchaikovsky's 6th
 * rachmaninoff piano concerto #1-4
-* erik satie gymonospedie
+* erik satie gymonopedies
 * saint-saens carnival of the animals
 * saint-saens danse macabre
 * borodin in the steppes of central asia
