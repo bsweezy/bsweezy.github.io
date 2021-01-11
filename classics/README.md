@@ -1,22 +1,23 @@
-What are my favorite classical music tracks? Here are some. As I put this together, I realized a bunch of these are already super, super well-known. I've categorized these so if you're already familiar with the hits, you can jump straight to the deeper cuts. That said, oftentimes people know the key movement or melody from the huge hits--but if it's on this list, I really recommend the whole work itself. There's so much more going on in these than their most famous passages. 
+What are my favorite classical music tracks? Here are some. As I put this together, I realized a bunch of these are already super, super well-known. I've categorized these so if you're already familiar with the hits, you can jump straight to the deeper cuts. That said, oftentimes people know the key movement or melody from the huge hits--but if it's on this list, I really recommend the whole work itself. There's so much more going on in these than their most famous passages. Spotify Playlist recordings are Berliner Philharmoniker where possible/appropriate. Compared to an overall primer of baroque/classical/romantic/modern music, these choices lean *very hard* on the Romantic period, and is symphony-heavy. Not meant to be representative of all music!
 
 *January 10, 2021*
 
-Launching with inital load of recommendations and categories. Hopefully will add more interactivity and playlists later.
+Launching with inital load of recommendations and categories. Hopefully will add more interactivity and playlists later. 
 
 ## huge hits
-* rossini william tell
-* tchaikovsky romeo and juliet
-* mussorgsky pictures at an exhibition
-* rimsky-korsakoff scheherezade
-* dvorak 9th symphony
-* grieg peer gynt suite
+[Spotify Playlist of the **Hits**](https://www.google.com/url?q=https://open.spotify.com/playlist/1J0Ylt9qEUYryjQpyvKVRf?si%3D2jZy3iq4RqepNy58zblHUg&sa=D&source=hangouts&ust=1610412224048000&usg=AFQjCNEWqLLaY-5YiCN6nDMHz-JY3NIgLw) 
+* rossini william tell Overture (12m)
+* tchaikovsky romeo and juliet fantasy overture (20m)
+* mussorgsky pictures at an exhibition (24m)
+* rimsky-korsakoff scheherezade (50m)
+* dvorak 9th symphony (40m)
+* grieg peer gynt suite (32m)
 * brahms hungarian dances
-* tchaikovksy 1812 overture
-* tchaikovsky swan lake (just incredible)
-* stravinsky rite of spring
-* beethoven moonlight sonata (all movements)
-* chopin nocturnes
+* tchaikovksy 1812 overture (14m)
+* tchaikovsky swan lake (20m or 2hrs)
+ * (PL includes suite of highlights, the full show is 2 hours "It is the first recognisably symphonic ballet score, setting to music a dramatic narrative as serious as that of any opera.")
+* stravinsky rite of spring (30m)
+* chopin nocturnes (1hr)
 
 
 ## more obscure orchestral
@@ -35,6 +36,7 @@ Launching with inital load of recommendations and categories. Hopefully will add
 * Mendolssohn - midsummer nights dream
 * borodin orchestral prince igor (technically an opera, but it's only ever performed as an orchestral suite)
 * haydn symphony 92 "oxford symphony" mv3 (for sean: "premiered in 1789 as one of a set of three symphonies that Haydn had been commissioned by the French Count d'Ogny to compose")
+* Smetana Die Moldau (From Ma Vlast)
 
 ## great studying
 * just a bunch of corelli concerto grosso selections
@@ -74,4 +76,4 @@ Launching with inital load of recommendations and categories. Hopefully will add
 * one of the mahler symphonies (maybe two!) but I never have put my finger on it
 
 ## Related Links
-If you enjoyed this, check out its format origin story at my [COVID Gaming](https://github.com/bsweeezy/covidgaming) (March 2020) page.
+If you enjoyed this, check out its format origin story at my [COVID Gaming](https://bsweezy.github.io/covidgaming) (March 2020) page.
