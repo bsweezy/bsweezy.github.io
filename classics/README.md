@@ -2,16 +2,16 @@
 
 *January 10, 2021 8:40pm*
 Added first wave of Spotify Playlists:
-* [Spotify Playlist of the **1 - The Hits**](https://www.google.com/url?q=https://open.spotify.com/playlist/1J0Ylt9qEUYryjQpyvKVRf?si%3D2jZy3iq4RqepNy58zblHUg&sa=D&source=hangouts&ust=1610412224048000&usg=AFQjCNEWqLLaY-5YiCN6nDMHz-JY3NIgLw) 
-* [Spotify Playlist of **2 - Deeper in the Crates**](https://open.spotify.com/playlist/699zahUlVCfVF6plgDjSbX?si=BI_vQNmhSjy5Lz6qFtqKyA)
-* [Spotify Playlist link for **3 - Studying**](https://open.spotify.com/playlist/1QMpNrxws9ut4yghbLTfF2?si=KaJqe8GBS66r36-LnrnwhQ)
+* [Spotify Playlist of the 1 - The Hits](https://www.google.com/url?q=https://open.spotify.com/playlist/1J0Ylt9qEUYryjQpyvKVRf?si%3D2jZy3iq4RqepNy58zblHUg&sa=D&source=hangouts&ust=1610412224048000&usg=AFQjCNEWqLLaY-5YiCN6nDMHz-JY3NIgLw) 
+* [Spotify Playlist of 2 - Deeper in the Crates](https://open.spotify.com/playlist/699zahUlVCfVF6plgDjSbX?si=BI_vQNmhSjy5Lz6qFtqKyA)
+* [Spotify Playlist link for 3 - Studying](https://open.spotify.com/playlist/1QMpNrxws9ut4yghbLTfF2?si=KaJqe8GBS66r36-LnrnwhQ)
 
 *January 10, 2021*
 
 Launching with inital load of recommendations and categories. Hopefully will add more interactivity and playlists later. 
 
 ## huge hits
-[Spotify Playlist of the **1 - The Hits**](https://www.google.com/url?q=https://open.spotify.com/playlist/1J0Ylt9qEUYryjQpyvKVRf?si%3D2jZy3iq4RqepNy58zblHUg&sa=D&source=hangouts&ust=1610412224048000&usg=AFQjCNEWqLLaY-5YiCN6nDMHz-JY3NIgLw) 
+[Spotify Playlist of the 1 - The Hits](https://www.google.com/url?q=https://open.spotify.com/playlist/1J0Ylt9qEUYryjQpyvKVRf?si%3D2jZy3iq4RqepNy58zblHUg&sa=D&source=hangouts&ust=1610412224048000&usg=AFQjCNEWqLLaY-5YiCN6nDMHz-JY3NIgLw) 
 * rossini william tell Overture (12m)
 * tchaikovsky romeo and juliet fantasy overture (20m)
 * mussorgsky pictures at an exhibition (24m)
@@ -27,7 +27,7 @@ Launching with inital load of recommendations and categories. Hopefully will add
 
 
 ## more obscure orchestral
-[Spotify Playlist of **2 - Deeper in the Crates**](https://open.spotify.com/playlist/699zahUlVCfVF6plgDjSbX?si=BI_vQNmhSjy5Lz6qFtqKyA)
+[Spotify Playlist of 2 - Deeper in the Crates](https://open.spotify.com/playlist/699zahUlVCfVF6plgDjSbX?si=BI_vQNmhSjy5Lz6qFtqKyA)
 * Mizesko "Sketches from Pinehurst" (2005, not on Spotify)
 * tchaikovsky's 6th (40m) :heart:
 * rachmaninoff piano concerto #1-4 (90m)
@@ -47,7 +47,7 @@ Launching with inital load of recommendations and categories. Hopefully will add
   * *The Moldau is an ode to the river running through Prague. listen to the similar "sound of a river" in this orchestral setting to the beginning of Das Rheingold--which makes the similiarity to Hatikhva (1877) all the more odd.
 
 ## great studying
-[Spotify Playlist link for **3 - Studying**](https://open.spotify.com/playlist/1QMpNrxws9ut4yghbLTfF2?si=KaJqe8GBS66r36-LnrnwhQ)
+[Spotify Playlist link for 3 - Studying](https://open.spotify.com/playlist/1QMpNrxws9ut4yghbLTfF2?si=KaJqe8GBS66r36-LnrnwhQ)
 * just a bunch of corelli concerto grosso selections
 * bunch of vivaldi concerti
 * rodgrigo (spanish guitar)
