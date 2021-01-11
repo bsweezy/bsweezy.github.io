@@ -16,7 +16,7 @@ Launching with inital load of recommendations and categories. Hopefully will add
 * tchaikovsky romeo and juliet fantasy overture (20m)
 * mussorgsky pictures at an exhibition (24m)
 * rimsky-korsakoff scheherezade (50m)
-* dvorak 9th symphony (40m)
+* dvorak 9th symphony (40m) `fav`
 * grieg peer gynt suite (32m)
 * brahms hungarian dances
 * tchaikovksy 1812 overture (14m)
@@ -29,7 +29,7 @@ Launching with inital load of recommendations and categories. Hopefully will add
 ## more obscure orchestral
 [Spotify Playlist of **2 - Deeper in the Crates**](https://open.spotify.com/playlist/699zahUlVCfVF6plgDjSbX?si=BI_vQNmhSjy5Lz6qFtqKyA)
 * Mizesko "Sketches from Pinehurst" (2005, not on Spotify)
-* tchaikovsky's 6th (40m)
+* tchaikovsky's 6th (40m) `fav`
 * rachmaninoff piano concerto #1-4 (90m)
 * erik satie gymonopedies & gnossiennes (20m)
 * borodin in the steppes of central asia (11m)
@@ -55,7 +55,7 @@ Launching with inital load of recommendations and categories. Hopefully will add
 
 ## opera orchestral numbers
 * bizet carmen orchestral suite (should be everyone's first opera)
-* wagner parsifal overture
+* wagner parsifal overture `fav`
 * wagner rheingold overture
 * wagner ending of rheingold
 * wagner overture to tristan und isolde
@@ -72,13 +72,14 @@ Launching with inital load of recommendations and categories. Hopefully will add
 * Vitols "Gaismas Pils" Latvian independence and National Choral song
 
 ## vocal and orchestra
-* bernstein chichester psalms (20th century, hebrew, my dad sang this at the dedication of the National Cathedral)
+* bernstein chichester psalms (20th century, hebrew)
 * dvorak stabat mater (no one knows this and it kind of pitters out after 1st movement and if you don't like its chromatic melody then skip it because it's that over and over again--something about this just really really connected with me though, got me interested in settings of the "stabat mater")
-* gabriel faure cantique de jean racine (short, beautiful, find a recording with a harmonium not an organ)
+* gabriel faure cantique de jean racine `fav` (short, beautiful, find a recording with a harmonium not an organ)
 * Penderecki Polish Requiem (very atonal)
 * mozart requiem (even if he only wrote 2/3 of it)
 * brahms requiem
-* beethoven 9th (just the last movement is a "hit" but man the whole thing is great)
+* beethoven 9th `fav`
+  * * obviously the last movement qualifies as a "hit" but man the whole thing is great
 * one of the mahler symphonies (maybe two!) but I never have put my finger on it
 
 ## Related Links
