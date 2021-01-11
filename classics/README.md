@@ -15,7 +15,7 @@ Launching with inital load of recommendations and categories. Hopefully will add
 * brahms hungarian dances
 * tchaikovksy 1812 overture (14m)
 * tchaikovsky swan lake (20m or 2hrs)
- * (PL includes suite of highlights, the full show is 2 hours "It is the first recognisably symphonic ballet score, setting to music a dramatic narrative as serious as that of any opera.")
+  * *(PL includes suite of highlights, the full show is 2 hours "It is the first recognisably symphonic ballet score, setting to music a dramatic narrative as serious as that of any opera.")*
 * stravinsky rite of spring (30m)
 * chopin nocturnes (1hr)
 
@@ -44,6 +44,7 @@ Launching with inital load of recommendations and categories. Hopefully will add
 * rodgrigo (spanish guitar)
 * steve reich - music for 18 musicians (20th century)
 * Boccherini sonatas and chamber works (strings)
+* chopin nocturnes (also listed above in the hits)
 
 
 ## opera orchestral numbers
@@ -55,9 +56,8 @@ Launching with inital load of recommendations and categories. Hopefully will add
 * wagner Walkure intermezzi
 * wagner gotter siegfried journey
 * wagner gotter siegfried's death
-* Verdi rigoletto prelude
-* Verdi La traviata act 3 prelude
-
+* verdi rigoletto prelude
+* verdi La traviata act 3 prelude
 
 ## vocal
 * penderecki stabat mater (very atonal)
