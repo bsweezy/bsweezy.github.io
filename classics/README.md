@@ -1,14 +1,28 @@
 **Favorite Classical music.** What are my favorite classical music tracks? Here are some. As I put this together, I realized a bunch of these are already super, super well-known. I've categorized these so if you're already familiar with the hits, you can jump straight to the deeper cuts. That said, oftentimes people know the key movement or melody from the huge hits--but if it's on this list, I really recommend the whole work itself. There's so much more going on in these than their most famous passages. Spotify Playlist recordings are Berliner Philharmoniker where possible/appropriate. Compared to an overall primer of baroque/classical/romantic/modern music, these choices lean *very hard* on the Romantic period, and is symphony-heavy. Not meant to be representative of all music!
 
+*September 22, 2021*
+Added a fourth category: the Experimental/To-Explore music. As 2021 has gone on, we've accumulated a number of requests in the github project. I've added all of these as a new [fourth playlist](https://open.spotify.com/playlist/0qCSGVMlCVp8gI3hETU5z2?si=e35ef4b26b2e4a1c) and section below.
+
 *January 10, 2021 8:40pm*
 Added first wave of Spotify Playlists:
 * [Spotify Playlist of the 1 - The Hits](https://www.google.com/url?q=https://open.spotify.com/playlist/1J0Ylt9qEUYryjQpyvKVRf?si%3D2jZy3iq4RqepNy58zblHUg&sa=D&source=hangouts&ust=1610412224048000&usg=AFQjCNEWqLLaY-5YiCN6nDMHz-JY3NIgLw) 
 * [Spotify Playlist of 2 - Deeper in the Crates](https://open.spotify.com/playlist/699zahUlVCfVF6plgDjSbX?si=BI_vQNmhSjy5Lz6qFtqKyA)
 * [Spotify Playlist link for 3 - Studying](https://open.spotify.com/playlist/1QMpNrxws9ut4yghbLTfF2?si=KaJqe8GBS66r36-LnrnwhQ)
+* [Spotify Playlist of 4 - Experiments](https://open.spotify.com/playlist/0qCSGVMlCVp8gI3hETU5z2?si=e35ef4b26b2e4a1c) 
 
 *January 10, 2021*
-
 Launching with inital load of recommendations and categories. Hopefully will add more interactivity and playlists later. 
+
+## Experimental and To-Explore
+[Spotify Playlist of 4 - Experiments](https://open.spotify.com/playlist/0qCSGVMlCVp8gI3hETU5z2?si=e35ef4b26b2e4a1c) 
+* robert schumann "Rhenish" Symphony No. 3
+* achmaninoff symphony number 2 in e minor
+* claude debussy Dances Sacre e profane for harp and orch (Debussy)
+* ballet music from the siege of corinth (rossini)
+* richard strauss Tone Poems
+* ralph vaughan williams Symphony no 7 "Antarctica"
+* Alexander Scriabin etudes and other piano
+* Widor Symphony #5 especially mv #5 "Toccata"
 
 ## huge hits
 [Spotify Playlist of the 1 - The Hits](https://www.google.com/url?q=https://open.spotify.com/playlist/1J0Ylt9qEUYryjQpyvKVRf?si%3D2jZy3iq4RqepNy58zblHUg&sa=D&source=hangouts&ust=1610412224048000&usg=AFQjCNEWqLLaY-5YiCN6nDMHz-JY3NIgLw) 
