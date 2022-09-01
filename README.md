@@ -18,3 +18,6 @@ View complete [resume](Benjamin Sweezy - Resume.pdf).
 * CIO Assessment to identify opportunities and gaps using TBM, FEA, and FITARA baseline models.
 * Office 365 and Federal Records Management
 * Incorporate agile development into federal contracts using methods proven in federal agencies.
+
+## Collected Links and Bookmarks
+* These are generally from 2009-2017. [HTML](pinboard_export.2022.09.01_15.08.html) | [JSON](pinboard_export.2022.09.01_15.08.json)
