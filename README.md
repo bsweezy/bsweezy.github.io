@@ -10,7 +10,7 @@ View complete [resume](Benjamin Sweezy - Resume.pdf).
 * Use a mix of _Tableau_, _Python_, and _R_ to clean, understand, and present your data.
 * Use performance management requirements to establish a data-driven enterprise.
 
-## Federal IT Policy _(Updated September 2019)_
+## Federal IT Policy
 * __21st Century IDEA Act:__ Establishing your Digital Services Portfolio, Enterprise Data Inventory, and Customer Experience Strategy
 * __Foundations for Evidence-Based Policymaking Act of 2018:__ Defining a Chief Data Officer, managing an Enterprise Data Inventory, and a Blueprint for Data-Driven Program Evaluation
 * __Presidents Management Agenda:__ an integrated approach across programs, OCIO, CISO, and Digital Services.
