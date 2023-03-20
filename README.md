@@ -1,3 +1,6 @@
+## Talks & Press Summary
+__CLICK__ [__HERE__](Ben Sweezy - Talks and Press.pdf) __FOR 2023 SUMMARY__
+
 ## Contact
 Contact me by [Email](mailto:sweezyconsulting@gmail.com) or [LinkedIn](https://www.linkedin.com/in/ben-sweezy-91514720/).
 View complete [resume](Benjamin Sweezy - Resume.pdf).
