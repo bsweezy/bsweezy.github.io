@@ -1,6 +1,5 @@
-## Talks & Press Summary
-* 2023 Talks and Press Summary - [PDF](Ben Sweezy - Talks and Press.pdf)
-* 2023 Resume - [PDF](Ben Sweezy - Resume.pdf)
+## Professional Background
+* Download my resume here - [PDF](Benjamin Sweezy Resume CV.pdf)
 
 ## Contact
 Contact me by [Email](mailto:sweezyconsulting@gmail.com) or [LinkedIn](https://www.linkedin.com/in/ben-sweezy-91514720/).
