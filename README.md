@@ -1,5 +1,5 @@
 ## Professional Background
-* Download my resume here - [PDF](Ben Sweezy - Resume.pdf)
+* Resume available here - [PDF](Ben Sweezy-Resume.pdf)
 * Review catalog of Press and Events appearances here - [PDF](Ben Sweezy - Talks and Press.pdf)
 
 ## Contact
