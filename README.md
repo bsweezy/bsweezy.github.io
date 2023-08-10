@@ -2,6 +2,8 @@
 * Resume available here - [PDF](Ben Sweezy-Resume.pdf)
 * Review catalog of Press and Events appearances here - [PDF](Ben Sweezy - Talks and Press.pdf)
 
+![Recent work experience](sweezyjobs_512.jpg)
+
 ## Contact
 Contact me on [LinkedIn](https://www.linkedin.com/in/ben-sweezy-91514720/).
 
