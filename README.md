@@ -1,5 +1,5 @@
 ## Professional Background
-* Resume available here - [PDF](Ben Sweezy-Resume.pdf)
+* Resume available here - [PDF](Sweezy - Oct 10 Resume.pdf)
 * Review catalog of Press and Events appearances here - [PDF](Ben Sweezy - Talks and Press.pdf)
 
 ![Recent work experience](sweezyjobs_512.jpg)
