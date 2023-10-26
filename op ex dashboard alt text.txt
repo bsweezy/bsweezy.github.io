@@ -1,0 +1,43 @@
+The number of individuals engaged each year has varied from a period of "Early Impact" to the most current year (AY 22-23). The bar graph shows these values:
+Early Impact 31
+AY 18-19	66
+AY 19-20	32
+AY 20-21	42
+AY 21-22	90
+AY 22-23	232
+
+The number of schools/units engaged with each year has varied. The bar graph shows these values:
+
+Early Impact	23
+AY 18-19	45
+AY 19-20	22
+AY 20-21	28
+AY 21-22	41
+AY 22-23	114
+
+The number of projects by approach since 2018 has been:
+Solution Design						14
+Transformation & Change Management	7
+Advisory							8
+Training							8
+Facilitation						2
+
+The number of each project type by year is as follows:
+
+Early Impact:	2 of Solution Design
+AY 18-19:	3 of Solution Design
+AY 19-20:	3 of Advisory, 1 of Facilitation, 2 of Solution Design
+AY 20-21:	1 of Advisory, 1 of Facilitation, 1 of Solution Design, 2 of Transformation & Change Management
+AY 21-22:	1 of Advisory, 3 of Solution Design, 2 of Transformation & Change Management
+AY 22-2:	1 of Training
+AY 22-23:	3 of Advisory, 3 of Solution Design, 8 of Training, 3 of Transformation & Change Management
+
+If you have the opportunity, would you choose to participate in another design team in the future?
+Yes	96.4912%
+No	3.5088%
+
+Rate your experience participating on the design team:
+Delightful	61.4035%
+Good		35.0877%
+Average		3.5088%
+
