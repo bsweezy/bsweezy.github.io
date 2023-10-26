@@ -1,6 +1,7 @@
 ## Professional Background
 * Resume available here - [PDF](Sweezy - Oct 10 Resume.pdf)
 * Review catalog of Press and Events appearances here - [PDF](Ben Sweezy - Talks and Press.pdf)
+* Operational Excellence Team - [Accessible Text for Dashboard](alttext.txt) | [Appscript for Table](tabletext.txt)
 
 ![Recent work experience](sweezyjobs_512.jpg)
 
