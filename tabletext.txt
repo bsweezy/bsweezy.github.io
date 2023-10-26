@@ -1,0 +1,37 @@
+function convertTableToTextAndWrite() {
+  var sheet = SpreadsheetApp.getActiveSheet();
+  var dataRange = sheet.getDataRange();
+  var data = dataRange.getValues();
+  var headers = data[0];
+  var result = [];
+
+  for (var i = 1; i < data.length; i++) {
+    var row = data[i];
+    var rowText = i + ": ";
+    var hasValue = false;
+
+    for (var j = 0; j < row.length; j++) {
+      if (row[j] !== "" && row[j] !== 0) {
+        if (hasValue) {
+          rowText += ", ";
+        }
+        rowText += row[j] + " of " + headers[j];
+        hasValue = true;
+      }
+    }
+
+    if (hasValue) {
+      result.push(rowText);
+    }
+  }
+
+  // Determine the target cell for writing the results
+  var lastColumn = dataRange.getLastColumn();
+  var targetColumn = lastColumn + 2;
+  var targetRange = sheet.getRange(1, targetColumn, result.length, 1);
+
+  // Set the values in the target range
+  for (var k = 0; k < result.length; k++) {
+    targetRange.getCell(k + 1, 1).setValue(result[k]);
+  }
+}
