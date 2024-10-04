@@ -2,7 +2,7 @@
 * Resume available here - [PDF](Sweezy - Oct 4 2024 Resume.pdf)
 * Review catalog of Press and Events appearances here - [PDF](Ben Sweezy - Talks and Press.pdf)
 
-![Recent work experience](graphic_sans.png)
+![Recent work experience and positions](graphic_sans.png)
 
 ## Contact
 Contact me on [LinkedIn](https://www.linkedin.com/in/ben-sweezy-91514720/).
