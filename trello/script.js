@@ -1,11 +1,12 @@
 var t = TrelloPowerUp.initialize({
-    'header-buttons': function(t) {
+    // CHANGE THIS CAPABILITY
+    'board-buttons': function(t) { 
         return [{
-            // Make sure you have an icon at this path!
+            // icon path must be correct relative to the root URL
             icon: './images/clock_icon.svg', 
             text: 'Recent Activity', 
             callback: function(t) {
-                // This URL must match the location of your HTML file
+                // The action still opens the popup to display all cards globally
                 return t.popup({
                     title: 'Recently Modified Cards',
                     url: './recent_activity_popup.html' 
@@ -13,4 +14,5 @@ var t = TrelloPowerUp.initialize({
             }
         }];
     }
+    // Remove the 'header-buttons' reference if it was there
 });
