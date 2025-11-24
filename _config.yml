@@ -8,5 +8,5 @@ logo: benportrait.png
 # Tells Jekyll which files and folders to explicitly ignore.
 # The 'trello/' directory will not be processed, allowing the files 
 # inside to be served as pure HTML/JS/CSS.
-exclude:
-  - trello/
+# exclude:
+#   - trello/
