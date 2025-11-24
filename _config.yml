@@ -4,3 +4,9 @@ theme: jekyll-theme-minimal
 logo: benportrait.png
 # show_downloads: false
 # google_analytics: UA-145960992-1
+
+# Tells Jekyll which files and folders to explicitly ignore.
+# The 'trello/' directory will not be processed, allowing the files 
+# inside to be served as pure HTML/JS/CSS.
+exclude:
+  - trello/
