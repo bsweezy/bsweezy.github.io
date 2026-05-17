@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Tracker</title>
+    <style>
+        body { font-family: sans-serif; background: #121212; color: #fff; padding: 20px; text-align: center; }
+        h1 { color: #4CAF50; font-size: 24px; }
+        .plant-card { background: #222; margin: 15px 0; padding: 15px; border-radius: 8px; display: flex; justify-content: space-between; align-items: center; }
+        .plant-name { font-size: 18px; font-weight: bold; }
+        button { background: #4CAF50; color: white; border: none; padding: 12px 20px; border-radius: 5px; font-size: 16px; cursor: pointer; }
+        button:active { background: #45a049; }
+        .secondary-button { background: #333; margin: 6px; }
+        .secondary-button:active { background: #444; }
+        #status { margin-top: 20px; color: #aaa; font-size: 14px; min-height: 20px; }
+        #sync-info { margin-top: 8px; color: #777; font-size: 12px; }
+    </style>
+</head>
+<body>
+
+    <h1>ðŸŒ¿ Plant Watering</h1>
+
+    <div id="plant-list"></div>
+
+    <button class="secondary-button" onclick="syncToCloud(true)">Sync to Cloud</button>
+    <button class="secondary-button" onclick="loadFromCloud()">Load from Cloud</button>
+
+    <div id="status"></div>
+    <div id="sync-info"></div>
+
+    <script>
+        // Cloud Run endpoint for RidgeMirror plant sync.
+        const CLOUD_SYNC_URL = "https://plant-sync-1033516531113.us-east1.run.app";
+
+        // This secret is used only for POST writes. GET reads do not require it.
+        // Rotate this later once everything is working, since it was shared during setup.
+        const PLANT_SYNC_SECRET = "24c3d849e7ad6fac09f5dae988be68aa2be802d302b9cefce8dd190b31d664d1";
+
+        // Define your plants here.
+        const plants = ["Peonies", "Conifers", "Maples", "Mums"];
+
+        // Initialize local storage structure if it doesn't exist.
+        if (!localStorage.getItem('wateringLog')) {
+            localStorage.setItem('wateringLog', JSON.stringify({}));
+        }
+
+        if (!localStorage.getItem('needsSync')) {
+            localStorage.setItem('needsSync', 'false');
+        }
+
+        function getWateringLog() {
+            try {
+                return JSON.parse(localStorage.getItem('wateringLog')) || {};
+            } catch (err) {
+                console.error('Invalid local wateringLog, resetting.', err);
+                localStorage.setItem('wateringLog', JSON.stringify({}));
+                return {};
+            }
+        }
+
+        function setStatus(message, clearAfterMs = 0) {
+            document.getElementById('status').innerText = message;
+
+            if (clearAfterMs > 0) {
+                setTimeout(() => {
+                    document.getElementById('status').innerText = '';
+                }, clearAfterMs);
+            }
+        }
+
+        function formatTimestamp(timestamp) {
+            if (!timestamp) return 'Never';
+
+            const date = new Date(timestamp);
+            if (Number.isNaN(date.getTime())) return 'Invalid date';
+
+            return date.toLocaleString([], {
+                month: 'short',
+                day: 'numeric',
+                hour: '2-digit',
+                minute: '2-digit'
+            });
+        }
+
+        function renderPlants() {
+            const listDiv = document.getElementById('plant-list');
+            listDiv.innerHTML = '';
+
+            const log = getWateringLog();
+
+            plants.forEach(plant => {
+                const lastWatered = formatTimestamp(log[plant]);
+
+                const card = document.createElement('div');
+                card.className = 'plant-card';
+                card.innerHTML = `
+                    <div style="text-align: left;">
+                        <div class="plant-name">${plant}</div>
+                        <div style="font-size: 12px; color: #aaa;">Last: ${lastWatered}</div>
+                    </div>
+                    <button onclick="waterPlant('${plant}')">Watered</button>
+                `;
+                listDiv.appendChild(card);
+            });
+
+            renderSyncInfo();
+        }
+
+        function renderSyncInfo() {
+            const needsSync = localStorage.getItem('needsSync') === 'true';
+            const lastSync = localStorage.getItem('lastSync');
+            const syncText = lastSync ? formatTimestamp(lastSync) : 'Never';
+
+            document.getElementById('sync-info').innerText =
+                `Last cloud sync: ${syncText} | Pending sync: ${needsSync ? 'Yes' : 'No'}`;
+        }
+
+        function waterPlant(plantName) {
+            const log = getWateringLog();
+            log[plantName] = new Date().toISOString();
+
+            localStorage.setItem('wateringLog', JSON.stringify(log));
+            localStorage.setItem('needsSync', 'true');
+
+            renderPlants();
+            setStatus(`Saved ${plantName} locally. Syncing to cloud...`);
+
+            syncToCloud(false);
+        }
+
+        async function syncToCloud(showNothingToSyncMessage = true) {
+            const needsSync = localStorage.getItem('needsSync') === 'true';
+
+            if (!needsSync && showNothingToSyncMessage) {
+                setStatus('Nothing new to sync.', 2500);
+                renderSyncInfo();
+                return;
+            }
+
+            const log = getWateringLog();
+
+            try {
+                setStatus('Syncing to cloud...');
+
+                const response = await fetch(CLOUD_SYNC_URL, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'x-plant-key': PLANT_SYNC_SECRET
+                    },
+                    body: JSON.stringify({
+                        plants: log,
+                        deviceUpdatedAt: new Date().toISOString()
+                    })
+                });
+
+                const result = await response.json().catch(() => ({}));
+
+                if (!response.ok || !result.ok) {
+                    throw new Error(result.error || `HTTP ${response.status}`);
+                }
+
+                localStorage.setItem('needsSync', 'false');
+                localStorage.setItem('lastSync', new Date().toISOString());
+
+                setStatus('Synced to cloud.', 2500);
+                renderSyncInfo();
+            } catch (err) {
+                console.error('Cloud sync failed:', err);
+                localStorage.setItem('needsSync', 'true');
+                setStatus('Saved locally. Cloud sync failed. Try again later.');
+                renderSyncInfo();
+            }
+        }
+
+        async function loadFromCloud() {
+            try {
+                setStatus('Loading from cloud...');
+
+                const response = await fetch(CLOUD_SYNC_URL, {
+                    method: 'GET'
+                });
+
+                const result = await response.json().catch(() => ({}));
+
+                if (!response.ok || !result.ok) {
+                    throw new Error(result.error || `HTTP ${response.status}`);
+                }
+
+                localStorage.setItem('wateringLog', JSON.stringify(result.plants || {}));
+                localStorage.setItem('needsSync', 'false');
+                localStorage.setItem('lastSync', new Date().toISOString());
+
+                renderPlants();
+                setStatus('Loaded latest cloud data.', 2500);
+            } catch (err) {
+                console.error('Cloud load failed:', err);
+                setStatus('Could not load from cloud.');
+            }
+        }
+
+        // If there are unsynced local updates when the page opens, try to send them.
+        if (localStorage.getItem('needsSync') === 'true') {
+            syncToCloud(false);
+        }
+
+        // Retry while the page stays open.
+        setInterval(() => {
+            if (localStorage.getItem('needsSync') === 'true') {
+                syncToCloud(false);
+            }
+        }, 5 * 60 * 1000);
+
+        // Initial render on load.
+        renderPlants();
+    </script>
+</body>
+</html>
